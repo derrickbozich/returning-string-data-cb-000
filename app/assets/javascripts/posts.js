@@ -5,7 +5,7 @@ $(function(){
     let id = this.dataset.id
     
     $.get(url, function(data){
-      $(`#body-${id}`).html(data)
+      $(`#body-${id}`).text(data)
     })
   })
 })
