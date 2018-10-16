@@ -1,5 +1,5 @@
 $(function(){
-  querySelectorAll('button').on('submit', function(e){
+  document.querySelectorAll('button').on('submit', function(e){
     e.preventDefault
     debugger
   })
