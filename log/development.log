@@ -1635,3 +1635,8 @@ Processing by PostsController#index as HTML
   Rendered posts/_post.html.erb (0.1ms)
   Rendered posts/_post.html.erb (0.1ms)
   Rendered posts/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 122ms (Views: 121.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/posts.self-d8f4e437b7f8f743e26693a474b7e23acb575c76520cd190c881c303d593926e.js?body=1" for 71.205.68.225 at 2018-10-16 17:44:23 +0000
+Cannot render console from 71.205.68.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
