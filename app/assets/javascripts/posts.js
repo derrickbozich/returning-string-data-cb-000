@@ -1,7 +1,6 @@
 $(function(){
   $(".js-more").on('click', function(e){
-    e.preventDefault
-    console.log('stop')
+    console.log('click')
     let url = this.attributes.action.value
     $.get(url, function(data){
       debugger
