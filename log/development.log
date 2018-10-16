@@ -1785,3 +1785,9 @@ Completed 200 OK in 84ms (Views: 83.1ms | ActiveRecord: 0.2ms)
 
 Started GET "/assets/posts.self-d1a76db445c98f6833bf04db293b72e6204f02f642756d1e931e3ba9f16ef8bf.js?body=1" for 71.205.68.225 at 2018-10-16 18:11:53 +0000
 Cannot render console from 71.205.68.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/posts/8/body" for 71.205.68.225 at 2018-10-16 18:14:04 +0000
+Cannot render console from 71.205.68.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#body as HTML
+  Parameters: {"id"=>"8"}
