@@ -3,7 +3,8 @@ $(function(){
     e.preventDefault
     let url = this.attributes.action.value
     $.get(url, function(data){
-      $('.full-description').html(data)
+      debugger
+      $(`#body-${}`).html(data)
     })
   })
 })
