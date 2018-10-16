@@ -1677,3 +1677,18 @@ Completed 200 OK in 76ms (Views: 75.3ms | ActiveRecord: 0.2ms)
 
 Started GET "/assets/posts.self-3b53587d9e62543d33b1fd659735a0ea8f158c5833c740fa651cb0dc60117601.js?body=1" for 71.205.68.225 at 2018-10-16 17:54:54 +0000
 Cannot render console from 71.205.68.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/posts" for 71.205.68.225 at 2018-10-16 17:56:20 +0000
+Cannot render console from 71.205.68.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/_post.html.erb (0.1ms)
+  Rendered posts/_post.html.erb (0.1ms)
+  Rendered posts/_post.html.erb (0.1ms)
+  Rendered posts/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 150ms (Views: 148.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/posts.self-a6a646eefdcfe30f789d6b57b47b70a2c2c7654ec24bfac645b70d8d677eb2f1.js?body=1" for 71.205.68.225 at 2018-10-16 17:56:20 +0000
+Cannot render console from 71.205.68.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
