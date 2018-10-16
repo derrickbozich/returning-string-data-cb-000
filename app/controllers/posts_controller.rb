@@ -8,6 +8,16 @@ class PostsController < ApplicationController
   def show
   end
 
+  def body
+    binding.pry
+    post = Post.find_by_id(params['id'])
+    if post
+      post.description
+    else
+
+    end
+  end
+
   def new
     @post = Post.new
   end
