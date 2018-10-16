@@ -4,7 +4,7 @@ $(function(){
     let url = this.attributes.action.value
     $.get(url, function(data){
       debugger
-      $(`#body-${}`).html(data)
+      // $(`#body-${}`).html(data)
     })
   })
 })
