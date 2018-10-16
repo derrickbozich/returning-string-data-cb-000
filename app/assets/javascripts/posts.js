@@ -1,10 +1,10 @@
-// $(function(){
-//   $(".js-more").on('click', function(e){
-//     e.preventDefault
-//     console.log('stop')
-//     debugger
-//   })
-// })
+$(function(){
+  $(".js-more").on('click', function(e){
+    e.preventDefault
+    console.log('stop')
+    debugger
+  })
+})
 
 // $(function () {
 //   $(".js-more").on('click', function() {
