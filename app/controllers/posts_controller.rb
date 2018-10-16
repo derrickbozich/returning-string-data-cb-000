@@ -12,7 +12,7 @@ class PostsController < ApplicationController
     binding.pry
     post = Post.find_by_id(params['id'])
     if post
-      post.description
+      render plain: post.description
     else
 
     end
