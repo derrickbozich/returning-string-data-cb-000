@@ -9,7 +9,6 @@ class PostsController < ApplicationController
   end
 
   def body
-    binding.pry
     post = Post.find_by_id(params['id'])
     if post
       render plain: post.description
