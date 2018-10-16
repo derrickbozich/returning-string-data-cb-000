@@ -1791,3 +1791,6 @@ Started GET "/posts/8/body" for 71.205.68.225 at 2018-10-16 18:14:04 +0000
 Cannot render console from 71.205.68.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by PostsController#body as HTML
   Parameters: {"id"=>"8"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 8]]
+  Rendered text template (0.0ms)
+Completed 200 OK in 6033ms (Views: 4.9ms | ActiveRecord: 1.2ms)
